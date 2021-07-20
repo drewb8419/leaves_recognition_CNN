@@ -1,0 +1,19 @@
+Convolutional Neural Network
+
+	Hyperparameters
+
+	Pre-trained model - DenseNet169
+	input shape = (224, 224, 3)
+	Loss Function - binary crossentropy
+	Optimizer - RMSProp
+	Learning Rates - 0.1, 0.001, 0.00001
+	Epochs - 3 per chunk (for each learning rate)
+	Model metric - Accuracy
+
+	Performance metrics
+
+	accuracy = 0.9901
+	val_accuracy = 0.9821
+
+
+
